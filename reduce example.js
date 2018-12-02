@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title></title>
+<title>菜鸟教程(runoob.com)</title>
 </head>
 <body>
 
@@ -14,9 +14,10 @@
 <script>
     var numbers = [65, 44, 12, 4];
     function myFunction(){
-    document.getElementById("demo").innerHTML = numbers.reduce((acc,currentValue) =>{
-        return acc + currentValue;
-    },0);
+    
+        document.getElementById("demo").innerHTML = numbers.reduce(
+        (acc,currentValue) =>acc + currentValue
+    );
 }
 </script>
 
